@@ -9,7 +9,7 @@ ReactDom.render(
     <h1>
       Hello! {fName} {lName} .
     </h1>
-    <p>Your lucky number is {luckyNumber}.</p>
+    <p>Your lucky number is {3 + 10}.</p>
   </div>,
   document.getElementById("root")
 );
