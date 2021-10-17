@@ -7,7 +7,7 @@ const luckyNumber = 13;
 ReactDom.render(
   <div>
     <h1>
-      Hello! {fName} {lName} .
+      Hello {fName} {lName}!.
     </h1>
     <p>Your lucky number is {3 + 10}.</p>
   </div>,
