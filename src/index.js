@@ -1,14 +1,12 @@
 import React from "react";
 import ReactDom from "react-dom";
 
+const name = "Joe";
+const luckyNumber = 13;
 ReactDom.render(
   <div>
-    <h1>My Favourite Game.</h1>
-    <ul>
-      <li>Apex Legend</li>
-      <li>LOL TFT</li>
-      <li>PUBG</li>
-    </ul>
+    <h1>Hello! {name}.</h1>
+    <p>Your lucky number is {luckyNumber}.</p>
   </div>,
   document.getElementById("root")
 );
